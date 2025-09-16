@@ -5,7 +5,7 @@
 
 Program ini merupakan aplikasi sederhana berbasis Java yang mengimplementasikan konsep CRUD (Create, Read, Update, Delete) untuk mengelola data ruangan rumah sakit. Data yang dikelola meliputi nomor ruangan, tipe ruangan, dan status ruangan.Struktur program dibuat dengan memisahkan class sesuai fungsinya, menggunakan constructor, access modifier, serta penerapan packages (main, model, service) untuk mendukung konsep MVC (Model-View-Controller).
 
-##Class
+## Class
 
 
 <img width="330" height="153" alt="image" src="https://github.com/user-attachments/assets/6808b765-19ad-4469-a7bc-20894d319c25" />
@@ -17,7 +17,7 @@ class RuanganService = Berfungsi untuk menyimpan logika CRUD (Create, Read, Upda
 class Main = menu utama (tempat user memilih apakah ingin menambah data, menampilkan data, mengedit data, menghapus data, mencari, dll).
 
 
-##Properties
+## Properties
 
 
 <img width="661" height="193" alt="image" src="https://github.com/user-attachments/assets/a6810a65-9ee2-43e4-93d9-bc7b0ffdd068" />
@@ -29,7 +29,7 @@ Nomor ruangan
 tipe ruangan
 status
 
-##Constructor
+## Constructor
 
 
 <img width="588" height="132" alt="image" src="https://github.com/user-attachments/assets/5ea5f5ec-f0ee-44cc-9b0c-765264d9c611" />
@@ -38,7 +38,7 @@ status
 Constructor adalah method khusus dalam Java yang dipanggil secara otomatis saat sebuah objek dibuat dari sebuah class. Didalam program ini diterapkan pada class Ruangan di dalam package model. Ketika akan membuat objek baru dari class Ruangan, constructor ini akan langsung dipanggil untuk mengisi nilai dari nomor, tipe, dan status.
 
 
-##Access Modifier
+## Access Modifier
 
 
 <img width="977" height="361" alt="image" src="https://github.com/user-attachments/assets/b98e7a6e-f540-4296-a6d0-1a74d1074782" />
@@ -47,7 +47,7 @@ Constructor adalah method khusus dalam Java yang dipanggil secara otomatis saat 
 Dalam program CRUD ini, sudah menerapkan access modifier private pada properti class Ruangan, serta public pada constructor, getter, dan setter.
 
 
-##Packages
+## Packages
 
 
 <img width="330" height="148" alt="image" src="https://github.com/user-attachments/assets/7ef8a226-bc96-4083-8490-ddda7eee1147" />
@@ -58,7 +58,7 @@ packages main > terdapat class main yang isinya adalah kode yang menyimpan menu 
 packages service > terdapat class ruanganservice yang berfungsi menyimpan kode logika CRUD
 packages model > terdapat class ruangan untuk menyimpan struktur data seperti atribut dan constructor
 
-##Mvc
+## Mvc
 
 
 <img width="331" height="150" alt="image" src="https://github.com/user-attachments/assets/bb5b3e3d-8024-4446-907f-a5d221e042a4" />
@@ -72,7 +72,7 @@ Model → Class Ruangan yang merepresentasikan struktur data dengan properti, co
 View → Class Main yang menangani tampilan menu utama pengguna serta input/output.
 Controller (Service) → Class RuanganService yang menangani logika bisnis, validasi input, dan operasi CRUD.
 
-##Validasi input
+## Validasi input
 
 
 <img width="539" height="77" alt="image" src="https://github.com/user-attachments/assets/a5d43d56-ffa7-48c6-ac58-f82a5ac9782f" />
@@ -80,7 +80,7 @@ Controller (Service) → Class RuanganService yang menangani logika bisnis, vali
 
 Program menambahkan validasi agar data yang dimasukkan user sesuai aturan. Dalam program ini saya menambahkan tipe ruangan hanya boleh yang tertera di atas selain itu maka inputan tidak valid, dan juga saya menambahkan status itu hanya boleh terisi dan kosong jika lain dari kedua tersebut maka harus mengisi kembali.
 
-##Fitur search.
+## Fitur search.
 
 
 <img width="532" height="116" alt="image" src="https://github.com/user-attachments/assets/e3a6ae4e-dedf-41a6-bfb3-c74faa7e844b" />
@@ -88,7 +88,7 @@ Program menambahkan validasi agar data yang dimasukkan user sesuai aturan. Dalam
 
 Di dalam program ini fitur search ini memungkinkan user bisa mencari ruangan berdasarkan nomor dan tipe.
 
-##Alur Program
+## Alur Program
 
 Program ini memiliki 7 menu 
 
